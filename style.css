@@ -1,0 +1,74 @@
+body {
+    margin: 0 0 0 0;
+      animation: skyy 5s linear 0s infinite none running;
+}
+
+.grass {
+    background: green;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+}
+
+.sun {
+    background: #f1c40f;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: suny 5s linear 0s infinite none running;
+}
+
+
+@keyframes suny {
+    0% {
+        background: #0ff135;
+        transform: translate(20px, 200px)
+    }
+
+    25% {
+        background: #72c723;
+        transform: translate(300px, -25%)
+    }
+
+    50% {
+        background: #9ae907;
+        transform: translate(600px, -50%)
+    }
+
+    75% {
+        background: #f1c40f;
+        transform: translate(900px, -25%)
+    }
+
+    100% {
+        background: #d67709;
+        transform: translate(1200px, 200px)
+    }
+}
+
+@keyframes skyy {
+    0% {
+        background: #f10f9a;
+
+    }
+
+    25% {
+        background: #2378c7;
+
+    }
+
+    50% {
+        background: #2378c7;
+
+    }
+
+    75% {
+        background: #2378c7;
+
+    }
+
+    100% {
+        background: #f10f9a;
+
+    }
+}
